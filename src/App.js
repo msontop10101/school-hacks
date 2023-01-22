@@ -17,15 +17,15 @@ function App() {
   return (
   <div>
     {/* SECTION ONE */}
-      <div class='bg-[#9E9E9E] h-[100px] flex items-center px-20'>
-      <div><img src={logo} height='70px' width='70px' alt='school-hacks-logo'/></div>
+      <div class='bg-[#9E9E9E] h-[100px] flex items-center px-28'>
+      <div><a href='/'><img src={logo} height='70px' width='70px' alt='school-hacks-logo'/></a></div>
       </div>
     {/* SECTION TWO */}
-      <div class='py-10 px-20 flex items-center'>
+      <div class='py-10 px-28 flex items-center'>
         <div class='font-semibold w-[70%]'>
-          <h2 class='text-[60px] font-extrabold text-purple-500'>BIENVENUE</h2>
-          <h4 class='text-[30px]'>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, <span class='text-purple-500'>adipisci velit</span></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus eros a enim pretium, a tempus ligula lacinia. Aliquam fringilla tristique aliquam. Proin et suscipit est, et euismod arcu. Cras ac egestas tortor. Duis facilisis lobortis tortor, vel dapibus leo egestas vitae. Suspendisse dolor ex, luctus vitae mi eget, eleifend gravida magna. Praesent molestie eu metus et cursus. Fusce et risus euismod, luctus felis dignissim, rhoncus metus. Ut finibus velit diam. Praesent pulvinar fringilla turpis eu eleifend. Cras eu lacinia justo. Integer tristique massa at maximus ultrices. Sed vitae arcu nec ligula facilisis commodo ut non metus.</p>
+          <h2 class='text-[50px] font-extrabold text-purple-500'>BIENVENUE</h2>
+          <h4 class='text-[22px]'>Neque porro quisquamsit amet, consectetur, <span class='text-purple-500'>adipisci velit</span></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur od arcu. Cras ac egestas tortor. Duis facilisis lobortis tortor, vel dapibus leo egestas vitae. Suspendisse dolor ex, luctus vitae mi eget, eleifend gravida magna. Praesent molestie eu metus et cursus. Fusce et risus euismod, luctus felis dignissim, rhoncus metus. Ut finibus velit diam. Praesent pulvinar fringilla turpis eu eleifend. Cras eu lacinia justo. Integer tristique massa at maximus ultrices. Sed vitae arcu nec ligula facilisis commodo ut non metus.</p>
         </div>
         <div>
           <div>
@@ -46,27 +46,27 @@ function App() {
           <div class='flex justify-center'>
           <div>
           <div class='flex gap-10 mb-10 justify-center'>
-            <div class='bg-gray-400 rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
+            <div class='bg-[#D2D2D2] rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
               <div class='mr-2'><img src={one} width='160px' height='160px' alt='one'/></div>
               <div><p class='font-semibold'>This is tag number one! This is tag number one!</p></div>
             </div>
-            <div class='bg-gray-400 rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
+            <div class='bg-[#D2D2D2] rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
               <div class='mr-2'><img src={two} width='120px' height='120px' alt='two'/></div>
               <div><p class='font-semibold'>This is tag number two!</p></div>
             </div>
           </div>
           <div class='flex gap-10 mb-10 justify-center'>
-            <div class='bg-gray-400 rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
+            <div class='bg-[#D2D2D2] rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
               <div class='mr-4'><img src={three} width='100px' height='100px' alt='three'/></div>
               <div><p class='font-semibold'>This is tag number one!</p></div>
             </div>
-            <div class='bg-gray-400 rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
+            <div class='bg-[#D2D2D2] rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
               <div class='mr-4'><img src={four} width='100px' height='100px' alt='four'/></div>
               <div><p class='font-semibold'>This is tag number two!</p></div>
             </div>
           </div>
           <div class='flex gap-10 justify-center'>
-            <div class='bg-gray-400 rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
+            <div class='bg-[#D2D2D2] rounded-2xl flex items-center p-5 h-[120px] w-[40%]'>
               <div class='mr-4'><img src={five} width='100px' height='100px' alt='five'/></div>
               <div><p class='font-semibold'>This is tag number one!</p></div>
             </div>
@@ -79,39 +79,43 @@ function App() {
         </div>
       </div>
       {/* SECTION FIVE */}
-      <div class=' bg-[#9E9E9E] px-20'>
-        <div class='text-white flex items-center'>
-          <div>
-          <h1 class='text-[40px] font-bold'>This is the header</h1>
-          <h4 class='text-[40px] font-normal'>Another small heading</h4>
-          <p> type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
+      <div class=' bg-[#9E9E9E] px-28'>
+        <div class='w-full flex items-center'>
+        <div class='text-white flex justify-center py-10'>
+          <div class=' w-[90%]'>
+          <h1 class='text-[40px] font-bold mb-2 text-center'>This is the header</h1>
+          <h4 class='text-[40px] font-normal text-center'>Another small heading</h4>
+          <p class='text-center'> type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
         
+        <div class='py-5 px-20'>
         <RegistrationForm/>
-        <p> type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
+        </div>
+        <p class='text-center'> type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
         
             </div>  
+        </div>
         </div>
         <div>
           <footer class='flex justify-between'>
             <div class='w-[20%]'>
-              <div><img src={logo} width='115px' height='115px' alt='logo'/></div>
+              <div><a href='/'><img src={logo} width='110px' height='110px' alt='logo'/></a></div>
               <p class='font-semibold'>studentshacks.com</p>
             </div>
             <div class='flex w-[60%] justify-evenly'>
               <div class='mr-10 flex-col items-center'>
-              <div class='flex justify-center'><img src={facebook} width='70px' height='70px' alt="facebook"/></div>
+              <div class='flex justify-center'><a href='facebook.com'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
               <div><p class='font-semibold'>Student Hacks</p></div>
               </div>
               <div class='mr-10'>
-              <div class='flex justify-center'><img src={twitter} width='70px' height='70px' alt="twitter"/></div>
+              <div class='flex justify-center'><a href='twitter.com'><img src={twitter} width='60px' height='60px' alt="twitter"/></a></div>
               <p class='font-semibold'>Student Hacks</p>
               </div>
               <div class='mr-10'>
-              <div class='flex justify-center'><img src={linkedin} width='70px' height='70px' alt="linkedin"/></div>
+              <div class='flex justify-center'><a href='linkedin.com'><img src={linkedin} width='60px' height='60px' alt="linkedin"/></a></div>
               <p class='font-semibold'>Student Hacks</p>
               </div>
               <div>
-              <div class='flex justify-center'><img src={email} width='70px' height='70px' alt="email"/></div>
+              <div class='flex justify-center'><a href='mailto:contact.studenthacks@gmail.com'><img src={email} width='60px' height='60px' alt="email"/></a></div>
               <p class='font-semibold'>contact@votresite.come</p>
               </div>
             </div>
