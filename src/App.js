@@ -41,7 +41,7 @@ function App() {
       </div>
       {/* SECTION FOUR */}
       <div>
-        <div class='py-10' style={{backgroundImage: 'url(./assets/images/background.png)'}}>
+        <div class='py-10 background'>
           <h2 class='font-bold text-[40px] text-center mb-10'>NOS SERVICES</h2>
           <div class='flex justify-center'>
           <div>
@@ -103,11 +103,11 @@ function App() {
             </div>
             <div class='flex w-[60%] justify-evenly'>
               <div class='mr-10 flex-col items-center'>
-              <div class='flex justify-center'><a href='facebook.com'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
+              <div class='flex justify-center'><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
               <div><p class='font-semibold'>Student Hacks</p></div>
               </div>
               <div class='mr-10'>
-              <div class='flex justify-center'><a href='twitter.com'><img src={twitter} width='60px' height='60px' alt="twitter"/></a></div>
+              <div class='flex justify-center'><a href='https://twitter.com/StudentHacks0'><img src={twitter} width='60px' height='60px' alt="twitter"/></a></div>
               <p class='font-semibold'>Student Hacks</p>
               </div>
               <div class='mr-10'>
