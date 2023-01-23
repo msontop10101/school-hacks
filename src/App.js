@@ -21,7 +21,7 @@ function App() {
       <div><a href='/'><img src={logo} height='70px' width='70px' alt='school-hacks-logo'/></a></div>
       </div>
     {/* SECTION TWO */}
-      <div class='py-10 px-4 md:px-28 flex flex-col md:flex-row items-center'>
+      <div class='py-10 px-4 md:px-28 flex flex-col md:flex-row items-center firstbackground'>
       <div class='md:hidden'>
           <div>
             <img src={notebooks} width='300px' height='300px' alt='notebook-imgage'/>
@@ -101,14 +101,13 @@ function App() {
         </div>
         </div>
         <div>
-          <footer class='flex flex-col justify-between'>
+          <footer class='flex justify-between py-14'>
             <div class='w-[20%]'>
               <div><a href='/'><img src={logo} width='110px' height='110px' alt='logo'/></a></div>
               <p class='font-semibold'>studentshacks.com</p>
             </div>
-            <div class='flex flex-col w-[60%] justify-evenly'>
+            <div class='flex flex-col md:flex-row w-full md:w-[60%] justify-evenly'>
               
-              <div class='flex'>
               <div class='mr-10 flex-col items-center'>
               <div class='flex justify-center'><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
               <div><p class='font-semibold'>Student Hacks</p></div>
@@ -117,9 +116,7 @@ function App() {
               <div class='flex justify-center'><a href='https://twitter.com/StudentHacks0'><img src={twitter} width='60px' height='60px' alt="twitter"/></a></div>
               <p class='font-semibold'>Student Hacks</p>
               </div>
-              </div>
 
-              <div class='flex'>
               <div class='mr-10'>
               <div class='flex justify-center'><a href='linkedin.com'><img src={linkedin} width='60px' height='60px' alt="linkedin"/></a></div>
               <p class='font-semibold'>Student Hacks</p>
@@ -127,7 +124,6 @@ function App() {
               <div>
               <div class='flex justify-center'><a href='mailto:contact.studenthacks@gmail.com'><img src={email} width='60px' height='60px' alt="email"/></a></div>
               <p class='font-semibold'>contact@votresite.come</p>
-              </div>
               </div>
 
             </div>

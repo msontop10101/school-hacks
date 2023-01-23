@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  
+
 }
 
 .App-logo {
@@ -41,6 +41,14 @@
 
 .background {
   background-image: url(./assets//images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.firstbackground {
+  background-image: url(./assets//images/firstbackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
