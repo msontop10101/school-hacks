@@ -101,12 +101,15 @@ function App() {
         </div>
         </div>
         <div>
-          <footer class='flex justify-between py-14'>
-            <div class='w-[20%]'>
-              <div><a href='/'><img src={logo} width='110px' height='110px' alt='logo'/></a></div>
-              <p class='font-semibold'>studentshacks.com</p>
+          <footer class='flex flex-col md:flex-row justify-between py-14'>
+            <div class='w-[50%] md:w-[20%] pl-4 md:pl-0'>
+              <div class='flex justify-center'><a href='/'><img src={logo} width='110px' height='110px' alt='logo'/></a></div>
+              <p class='font-semibold flex justify-center'>studentshacks.com</p>
             </div>
-            <div class='flex flex-col md:flex-row w-full md:w-[60%] justify-evenly'>
+
+
+            {/* --------DESKTOP-ICONS------------ */}
+            <div class='hidden md:flex flex-col md:flex-row w-full md:w-[60%] justify-evenly'>
               
               <div class='mr-10 flex-col items-center'>
               <div class='flex justify-center'><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
@@ -127,6 +130,37 @@ function App() {
               </div>
 
             </div>
+            {/* ---------DESKTOP-ICONS-------- */}
+
+            {/* --------MOBILE-ICONS--------- */}
+            <div>
+              <div class='pt-4 block md:hidden'>
+
+              <div class='flex justify-center gap-10 mb-4'>
+              <div class='flex flex-col items-center'>
+              <div class=''><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook"/></a></div>
+              <div><p class='font-semibold'>Student Hacks</p></div>
+              </div>
+              <div class='flex flex-col items-center'>
+              <div><a href='https://twitter.com/StudentHacks0'><img src={twitter} width='60px' height='60px' alt="twitter"/></a></div>
+              <div><p class='font-semibold'>Student Hacks</p></div>
+              </div>
+              </div>
+
+              <div class='flex justify-center gap-10'>
+              <div class='flex flex-col items-center'>
+              <div><a href='linkedin.com'><img src={linkedin} width='60px' height='60px' alt="linkedin"/></a></div>
+              <div><p class='font-semibold'>Student Hacks</p></div>
+              </div>
+              <div  class='flex flex-col items-center'>
+              <div><a href='mailto:contact.studenthacks@gmail.com'><img src={email} width='60px' height='60px' alt="email"/></a></div>
+              <div><p class='font-semibold'>Student Hacks</p></div>
+              </div>
+              </div>
+              </div>
+            </div>
+            {/* ------------MOBILE----------- */}
+
           </footer>
         </div>
       </div>
