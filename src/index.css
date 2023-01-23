@@ -16,3 +16,8 @@ code {
     monospace;
 }
 
+body, html {
+  width: 100vw;
+  /* overflow-x: hidden; */
+}
+

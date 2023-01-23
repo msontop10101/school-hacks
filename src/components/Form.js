@@ -35,8 +35,8 @@ const RegistrationForm = () => {
       />
       </div>
 
-      <div class='flex justify-between my-5'>
-      <div class='flex flex-col w-[45%]'>
+      <div class='flex flex-col md:flex-row justify-between my-5'>
+      <div class='flex flex-col w-full md:w-[45%]'>
       <label class='font-bold mb-1 text-lg' htmlFor="email">E-mail</label>
       <input
         id="email"
@@ -47,7 +47,7 @@ const RegistrationForm = () => {
         style={{height: '50px', borderRadius:'10px'}}
       />
       </div>
-      <div class='flex flex-col w-[45%]'>
+      <div class='flex flex-col w-full md:w-[45%]'>
       <label class='font-bold mb-1 text-lg' htmlFor="name">pas-de-telephone</label>
       <input
         id="phone"
