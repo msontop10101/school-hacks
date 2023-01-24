@@ -38,19 +38,31 @@
   }
 }
 
-
-.background {
-  background-image: url(./assets//images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.image-size-one {
+  width: 170px;
+  height: 170px
 }
 
-.firstbackground {
-  background-image: url(./assets//images/firstbackground.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.image-size {
+  width: 100px;
+  height: 100px;
+}
+.image-size-three {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px){
+  .image-size-one {
+    width: 70px;
+    height: 70px
+  }
+  .image-size {
+    width: 50px;
+    height: 50px;
+  }
+  .image-size-three {
+    width: 40px;
+    height: 40px;
+  }
 }
