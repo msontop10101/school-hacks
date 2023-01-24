@@ -11,6 +11,8 @@ import facebook from './assets/images/facebook.svg'
 import twitter from './assets/images/twitter.svg'
 import linkedin from './assets/images/linkedin.svg'
 import email from './assets/images/email.svg'
+import {FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {AiOutlineMail} from 'react-icons/ai'
 
 
 function App() {
@@ -110,22 +112,25 @@ function App() {
 
             {/* --------DESKTOP-ICONS------------ */}
             <div class='hidden md:flex flex-col md:flex-row w-full md:w-[60%] justify-evenly'>
-
+            {/* <img src={facebook} width='60px' height='60px' alt="facebook" /> */}
+            {/* <img src={twitter} width='60px' height='60px' alt="twitter" /> */}
+            {/* <img src={linkedin} width='60px' height='60px' alt="linkedin" /> */}
+            {/* <img src={email} width='60px' height='60px' alt="email" /> */}
               <div class='mr-10 flex-col items-center'>
-                <div class='flex justify-center'><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook" /></a></div>
+                <div class='flex justify-center'><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><FaFacebook color='#A855F7' size='4em'/></a></div>
                 <div><p class='font-semibold'>Student Hacks</p></div>
               </div>
               <div class='mr-10'>
-                <div class='flex justify-center'><a href='https://twitter.com/StudentHacks0'><img src={twitter} width='60px' height='60px' alt="twitter" /></a></div>
+                <div class='flex justify-center'><a href='https://twitter.com/StudentHacks0'><FaTwitter color='#A855F7' size='4em'/></a></div>
                 <p class='font-semibold'>Student Hacks</p>
               </div>
 
               <div class='mr-10'>
-                <div class='flex justify-center'><a href='linkedin.com'><img src={linkedin} width='60px' height='60px' alt="linkedin" /></a></div>
+                <div class='flex justify-center'><a href='linkedin.com'><FaLinkedin color='#A855F7' size='4em'/></a></div>
                 <p class='font-semibold'>Student Hacks</p>
               </div>
               <div>
-                <div class='flex justify-center'><a href='mailto:contact.studenthacks@gmail.com'><img src={email} width='60px' height='60px' alt="email" /></a></div>
+                <div class='flex justify-center'><a href='mailto:contact.studenthacks@gmail.com'><AiOutlineMail color='#A855F7' size='4em'/></a></div>
                 <p class='font-semibold'>contact@votresite.come</p>
               </div>
 
@@ -138,22 +143,22 @@ function App() {
 
                 <div class='flex justify-center gap-10 mb-4'>
                   <div class='flex flex-col items-center'>
-                    <div class=''><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><img src={facebook} width='60px' height='60px' alt="facebook" /></a></div>
+                    <div class=''><a href='https://web.facebook.com/people/Student-Hacks/100089567025384/'><FaFacebook color='#A855F7' size='4em'/></a></div>
                     <div><p class='font-semibold'>Student Hacks</p></div>
                   </div>
                   <div class='flex flex-col items-center'>
-                    <div><a href='https://twitter.com/StudentHacks0'><img src={twitter} width='60px' height='60px' alt="twitter" /></a></div>
+                    <div><a href='https://twitter.com/StudentHacks0'><FaTwitter color='#A855F7' size='4em'/></a></div>
                     <div><p class='font-semibold'>Student Hacks</p></div>
                   </div>
                 </div>
 
                 <div class='flex justify-center gap-10'>
                   <div class='flex flex-col items-center'>
-                    <div><a href='linkedin.com'><img src={linkedin} width='60px' height='60px' alt="linkedin" /></a></div>
+                    <div><a href='linkedin.com'><FaLinkedin color='#A855F7' size='4em'/></a></div>
                     <div><p class='font-semibold'>Student Hacks</p></div>
                   </div>
                   <div class='flex flex-col items-center'>
-                    <div><a href='mailto:contact.studenthacks@gmail.com'><img src={email} width='60px' height='60px' alt="email" /></a></div>
+                    <div><a href='mailto:contact.studenthacks@gmail.com'><AiOutlineMail color='#A855F7' size='4em'/></a></div>
                     <div><p class='font-semibold'>Student Hacks</p></div>
                   </div>
                 </div>
